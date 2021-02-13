@@ -1,0 +1,36 @@
+*{
+    margin:0 ; 
+    padding:0 ; 
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    color:white;
+    height: 10vh;
+    align-items: center;
+
+
+}
+ul{
+    display: flex;
+    margin-left:30vw;
+
+}
+
+ul>li{
+    margin:5px 30px;
+    padding :10px 20px;
+    /* background-color: aqua; */
+    list-style: none;
+}
+
+ul > li >a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
